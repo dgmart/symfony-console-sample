@@ -1,21 +1,21 @@
-Aplicativo symfony/console, de blueprint mÌnimo, apenas para exemplo.
+Aplicativo symfony/console, de blueprint m√≠nimo, apenas para exemplo.
 
-*N„o usar em produÁ„o*
+*N√£o usar em produ√ß√£o*
 
-InstalaÁ„o:
+Instala√ß√£o:
 -----------
 
-- clonar este repositÛrio;
-- em ambiente Linux, garanta que a pasta `var` neste diretÛrio tem permissıes de leitura e escrita;
-- instalar dependencias utilizando o comando `composer install` ([https://getcomposer.org/]);
-- configure suas propriedades do projeto, seguranÁa e banco de dados no arquivo `.env`.
+- clonar este reposit√≥rio;
+- em ambiente Linux, garanta que a pasta `var` neste diret√≥rio tem permiss√µes de leitura e escrita;
+- instalar dependencias utilizando o comando `composer install` (https://getcomposer.org/);
+- configure suas propriedades do projeto, seguran√ßa e banco de dados no arquivo `.env`.
 
-ExecuÁ„o:
+Execu√ß√£o:
 ---------
 
-Em ambiente Linux È necess·rio dar permiss„o de execuÁ„o ao arquivo `bin` na raiz do projeto.
+Em ambiente Linux √© necess√°rio dar permiss√£o de execu√ß√£o ao arquivo `bin` na raiz do projeto.
 
-Para visualizar os comandos disponÌveis, incluindo comandos nativos do Symfony e Doctrine, execute:
+Para visualizar os comandos dispon√≠veis, incluindo comandos nativos do Symfony e Doctrine, execute:
 ```
 php bin list
 ```
@@ -25,7 +25,7 @@ Este projeto traz apenas o comando `product-list` sob o namespace `sample`:
 php bin sample:product-list
 ```
 
-Utilizando a opÁ„o `--output` (ou `-o`) È possÌvel direcionar a saÌda para arquivo CSV;
+Utilizando a op√ß√£o `--output` (ou `-o`) √© poss√≠vel direcionar a sa√≠da para arquivo CSV;
 ```
 php bin sample:product-list --output=/path/to/file.csv
 ```
