@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/framework-bundle": "^4.2",
+        "doctrine/doctrine-bundle": "^1.10",
+        "symfony/dotenv": "^4.2",
+        "symfony/yaml": "^4.2",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Microservices\\Sample\\": "src/"
+        }
+    }
+}

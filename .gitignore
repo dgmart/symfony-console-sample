@@ -1,0 +1,5 @@
+/vendor
+/var/**
+!/var/.gitkeep
+!/var/data.s3db
+.env.local
